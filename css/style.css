@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url('https://fonts.googleapis.com/css?family=Playball');
+
+
+
+@import url(font-awesome.css);
+@import url(flaticon.css);
+
+/*Main css*/
+@import url('header-style.css');
+@import url('slider-style.css');
+@import url(jquery.fancybox.css);
+
+
+/* 
+============================================
+   2. Global styles
+============================================
+*/
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:active,a:focus {
+  text-decoration: none;
+}
+input,
+textarea,
+button {
+  outline: none;
+}
+
+p {
+  color: #333;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  /*margin-top: -7px;*/
+}
+.drop p{
+  color:black;
+}
+img {
+  max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+  position:relative;
+  font-family: 'Roboto', sans-serif;
+
+  margin-bottom: 20px;
+  margin-top: 0;
+  background:none;
+}
+
+
+
+
+
+
+
+
+.custom-shape-divider-top-1650013685 {
+ display: none; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1650013685 svg {
+ 
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 138px;
+}
+
+.custom-shape-divider-top-1650013685 .shape-fill {
+  fill:#ed0b0b ;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1650013685 svg {
+      width: calc(100% + 1.3px);
+      height: 92px;
+  }
+}
+
+.dcustom-shape-divider-top-1650013466 {
+display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.dcustom-shape-divider-top-1650013466 svg {
+  
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 138px;
+}
+
+.dcustom-shape-divider-top-1650013466 .shape-fill {
+  fill: #ed0b0b;
+}
