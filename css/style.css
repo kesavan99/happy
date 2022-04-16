@@ -20,6 +20,10 @@
   background-color:black;
   color: #e6e6e6;
 }
+.dark  .custom-shape-divider-bottom-1650098584 .shape-fill {
+  fill:black;
+    
+  }
 
 body {
 
@@ -28,6 +32,10 @@ body {
   padding: 0;
   background-color: white;
   color: black;
+}
+body .custom-shape-divider-bottom-1650098584 .shape-fill {
+fill:white;
+  
 }
 
 a,
@@ -315,8 +323,11 @@ img {vertical-align: middle;}
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1650098445 .shape-fill {
+body .custom-shape-divider-top-1650098445 .shape-fill {
   fill: #FFFFFF;
+}
+.dark .custom-shape-divider-top-1650098445 .shape-fill {
+  fill: black;
 }
 
 /** For mobile devices **/
@@ -344,9 +355,6 @@ img {vertical-align: middle;}
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1650098584 .shape-fill {
-  fill: #FFFFFF;
-}
 
 /** For mobile devices **/
 @media (max-width: 767px) {
