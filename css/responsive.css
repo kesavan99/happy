@@ -1,22 +1,11 @@
 @media only screen and (min-width: 1169px) {
 
-    .dcustom-shape-divider-top-1650013466 {
-        display: inline;
-    }
-        .container {
-    
-            padding: 0;
-    
-        }
-        #services .block .serviceimg1 {
-            display: none;
-            
-            }
-            
+   
+    .slideshow-container .mySlides  img{
+        height: 600px;
+    }       
         
-    .welcomeimg{
-        display: none;
-    }
+    
      
 #nav-mobile{
     display: none;
@@ -26,14 +15,19 @@
 
 
     @media only screen and (max-width: 1000px) {
-.custom-shape-divider-top-1650013685{
-    display: inline;
-}
 
-.header{
-    display: none;
-    }
-    
+        .header{
+            display: none;
+            }
+            
+               
+
+
+     
+
+
+   
+   
    
         
         }
